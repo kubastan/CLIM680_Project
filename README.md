@@ -23,7 +23,7 @@ This project investigates the ability of the **Unified Forecast System (UFS)**, 
 - **Dataset**: UFS Prototype 8 (**UFS P8**)
 - **Resolution**:
   - Spatial: **0.25°**
-  - Temporal: **Daily (04/01/2011 – 04/18/2018)**
+  - Temporal: **Daily (04/01/2011 – 04/18/2018)** initialized on the 1st and 15th of each month spanning 35 days
 - **Variable**: Precipitation (**mm/day**), pre-processed to align with observational data.
 
 ---
@@ -36,7 +36,10 @@ This project investigates the ability of the **Unified Forecast System (UFS)**, 
 
 ---
 
+### **Code Description:**
 
+**Climatology:**
+Below shows the Monthly Climatology for precipitation in the MJO active region. We see that in the summer months the highest precipitation amounts shift north.
 
 
 

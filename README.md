@@ -106,6 +106,9 @@ This filtered precipitation index uses a space time filter onto zonal wavenumber
 
 Once I have the filtered precipitation index then I used a function to calculate the lag regression slope. I then plotted it in the form of a longitude and lag plot. I then calculated the slope of the maximum rainfall anomaly for each lag to estimate the phase speed. Below is the plot for the lagged precipitation for the MSWEP data. 
 
+Here is the code I used to calculate the lag-regression.
+[MSWEP Lag Regression ](MSWEP_LAG_REGRESSION.ipynb)
+
 ![MSWEP Lagged Regression Rainfall Anomalies ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/MSWEP_LAG.jpg)
 
 

@@ -15,7 +15,7 @@ This project investigates the ability of the **Unified Forecast System (UFS)**, 
 - **Resolution**:
   - Spatial: **0.1°**
   - Temporal: **Daily (04/01/2011 – 04/18/2018)**
-- **Variable**: Daily Precipitation (**mm/day**), derived from MSWEP and pre-processed.
+- **Variable**: Daily Precipitation (**mm/day**), derived from MSWEP and sliced.
 
 ---
 

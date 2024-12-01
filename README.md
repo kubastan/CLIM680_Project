@@ -42,7 +42,9 @@ This project investigates the ability of the **Unified Forecast System (UFS)**, 
 ### **Mean Monthly Precipitation (MSWEP)**
 ![Mean Monthly Precipitation (MSWEP)](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/MSWEP_MEAN_MON.jpg)
 
-The above figure shows the mean monthly precipitation derived from the MSWEP dataset, highlighting key climatological features.
+The above figure shows the mean monthly precipitation derived from the MSWEP dataset, highlighting the climatology in the MJO active region.
+
+The code can be found here
 [Monthly Climatology Notebook](Monthly_Climatology.ipynb)
 
 

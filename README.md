@@ -75,8 +75,7 @@ Looking above at the figure we see in the convective active phases over the Indi
 
 Here is a link to the notebook used for the composites:
 
-Composite and Differenced Composite:
-
+**Composite and Differenced Composite:**
 [Composite and Differenced Composite](Composite_differences.ipynb)
 
 

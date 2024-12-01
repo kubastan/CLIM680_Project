@@ -5,7 +5,7 @@ The **Madden-Julian Oscillation (MJO)** is a region of enhanced convection and p
 The MJO significantly impacts the global atmospheric response, offering valuable insights for **weekly-scale weather predictions**. An **active MJO** is characterized by the eastward progression of enhanced convection, with suppressed convection following in its wake.  
 
 This project investigates the ability of the **Unified Forecast System (UFS)**, a coupled ocean-climate model, to simulate this atmospheric cycle.
-
+ 
 ---
 
 ## **Data Overview**
@@ -38,10 +38,37 @@ This project investigates the ability of the **Unified Forecast System (UFS)**, 
 
 ### **Code Description:**
 
-**Climatology:**
-Below shows the Monthly Climatology for precipitation in the MJO active region. We see that in the summer months the highest precipitation amounts shift north.
+##**Climatology:**
 
+**Observational data:**
+
+### **Mean Monthly Precipitation (MSWEP)**
+![Mean Monthly Precipitation (MSWEP)](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/MSWEP_MEAN_MON.jpg)
+
+The above figure shows the mean monthly precipitation derived from the MSWEP dataset, highlighting the climatology in the MJO active region.
+
+The code can be found here
 [Monthly Climatology Notebook](Monthly_Climatology.ipynb)
+
+**Model:**
+In the model I calculated the climatology and anomaly simutaneously based on the forecast day 0-840 due to the fact that there are 2 initializations for each month that each span 35 days. Below is the function I used to calculate the model climatology and anomaly. This calculates an anomaly for every timestep in the model output accounting for duplicate days.
+
+[UFS_Climatology](Calculate_Anomalies_UFS.ipynb.ipynb)
+
+## **Composite**
+
+In order to do a comparison between the observational data and the UFS model output, I created a composite based on the different phases of the MJO. That way, I could do a visual comparison and eventually test the statistical significance of the model output against the observations. Below is the composite for Precipitation anomalies for the different phases looking at the UFS and the MSWEP.
+
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/COMP_MSWEP.jpg" width="30%" style="display: inline-block;" />
+  <img src="https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/COMP_UFS.jpg" width="30%" style="display: inline-block;" />
+</div>
+
+
+
+
+
+
 
 
 

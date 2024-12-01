@@ -59,9 +59,9 @@ In the model I calculated the climatology and anomaly simutaneously based on the
 
 In order to do a comparison between the observational data and the UFS model output, I created a composite based on the different phases of the MJO. That way, I could do a visual comparison and eventually test the statistical significance of the model output against the observations. Below is the composite for Precipitation anomalies for the different phases looking at the UFS and the MSWEP.
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/COMP_MSWEP.jpg" width="45%" />
-  <img src="https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/COMP_UFS.jpg" width="45%" />
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/COMP_MSWEP.jpg" width="45%" style="display: inline-block;" />
+  <img src="https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/COMP_UFS.jpg" width="45%" style="display: inline-block;" />
 </div>
 
 

@@ -38,7 +38,7 @@ This project investigates the ability of the **Unified Forecast System (UFS)**, 
 
 ### **Code Description:**
 
-##**Climatology:**
+## **Climatology:**
 
 **Observational data:**
 
@@ -70,7 +70,7 @@ I then subtracted the MSWEP composite from the UFS composite to create a differe
 
 ![Differenced Composite (UFS-MSWEP) ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/DIFF_COMP.jpg)
 
-
+Looking above at the figure we see in the convective active phases over the Indian Ocean the UFS underdoes the amount of precipitation compared to the MSWEP. 
 
 
 

@@ -50,12 +50,23 @@ The above figure shows the mean monthly precipitation derived from the MSWEP dat
 The code can be found here
 [Monthly Climatology Notebook](Monthly_Climatology.ipynb)
 
-**Model**
-In the model I calculated the climatology and anomaly simutaneously based on the forecast day 0-840 due to the fact that there are 2 initializations for each month that each span 35 days. Below is the function I used to calculate the model climatology and anomaly.
+**Model:**
+In the model I calculated the climatology and anomaly simutaneously based on the forecast day 0-840 due to the fact that there are 2 initializations for each month that each span 35 days. Below is the function I used to calculate the model climatology and anomaly. This calculates an anomaly for every timestep in the model output accounting for duplicate days.
 
 [UFS_Climatology](Calculate_Anomalies_UFS.ipynb.ipynb)
 
-**Composite**
+##**Composite**
+
+In order to do a comparison between the observational data and the UFS model output I created a composite based on the different phases of the MJO. That way I could do a visual comparison and eventually test the statistical significance of the model output against the observations. Below is the composite for Precipitation anomalies for the different phases looking at the UFS and the MSWEP.
+![Composite(MSWEP)](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/Composite_MSWEP_MJO.jpg)
+![Composite(UFS)](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/Composite_UFS_MJO.jpg)
+
+
+
+
+
+
+
 
 
 

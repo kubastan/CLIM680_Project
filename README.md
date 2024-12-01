@@ -63,16 +63,21 @@ In order to do a comparison between the observational data and the UFS model out
   <img src="https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/COMP_MSWEP.jpg" width="30%" style="display: inline-block;" />
   <img src="https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/COMP_UFS.jpg" width="30%" style="display: inline-block;" />
 </div>
+
 --- 
-## **Difference**
+## **Differenced Composites**
 
 I then subtracted the MSWEP composite from the UFS composite to create a difference map to see any potential biases the model had.
 
 ![Differenced Composite (UFS-MSWEP) ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/DIFF_COMP.jpg)
 
-Looking above at the figure we see in the convective active phases over the Indian Ocean the UFS underdoes the amount of precipitation compared to the MSWEP. 
+Looking above at the figure we see in the convective active phases over the Indian Ocean the UFS underdoes the amount of precipitation compared to the MSWEP. We see it also underdoes the supression behind this convection as well.
 
+Here is a link to the notebook used for the composites:
 
+Composite and Differenced Composite:
+
+[Composite and Differenced Composite](Composite_differences.ipynb)
 
 
 

@@ -5,7 +5,7 @@ The **Madden-Julian Oscillation (MJO)** is a region of enhanced convection and p
 The MJO significantly impacts the global atmospheric response, offering valuable insights for **weekly-scale weather predictions**. An **active MJO** is characterized by the eastward progression of enhanced convection, with suppressed convection following in its wake.  
 
 This project investigates the ability of the **Unified Forecast System (UFS)**, a coupled ocean-climate model, to simulate this atmospheric cycle.
-
+ 
 ---
 
 ## **Data Overview**

@@ -64,7 +64,11 @@ In order to do a comparison between the observational data and the UFS model out
   <img src="https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/COMP_UFS.jpg" width="30%" style="display: inline-block;" />
 </div>
 
+**Difference**
 
+I then subtracted the MSWEP composite from the UFS composite to create a difference map to see any potential biases the model had.
+
+![Differenced_composite](https://raw.githubusercontent.com/kubastan/CLIM680_Project/DIFF_COMP.jpg)
 
 
 

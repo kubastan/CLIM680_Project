@@ -98,7 +98,7 @@ Below shows a plot of the differences in the composite anomalies of the UFS vs M
 ### **Lag Regression Analysis**
 In order to further diagnose the propogation of the MJO I conducted a lagged regression analaysis. This analysis takes the lag regression of the average 10S-10N Precipitation anomalies for all the longitudes against a filtered precipitation index. 
 
-## ** Filtered Precipitation index
+## **Filtered Precipitation index
 This filtered precipitation index uses a space time filter onto zonal wavenumber 1-3, with a frequency of 18-80 days. This will help find the MJO signal. This precipitation index is also calculated on the average within a domain of 160-170E and 5S to 5N. This filtering was done using a kf_filter. Below is the code I used to filter my data. The code has an example using u-winds instead of precipitation.
 
 [Filtered Precipitation Index ](kf_filter.ipynb)

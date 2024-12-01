@@ -38,7 +38,10 @@ This project investigates the ability of the **Unified Forecast System (UFS)**, 
 
 ### **Code Description:**
 
-**Climatology:**
+##**Climatology:**
+
+**Observational data:**
+
 ### **Mean Monthly Precipitation (MSWEP)**
 ![Mean Monthly Precipitation (MSWEP)](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/MSWEP_MEAN_MON.jpg)
 
@@ -46,6 +49,14 @@ The above figure shows the mean monthly precipitation derived from the MSWEP dat
 
 The code can be found here
 [Monthly Climatology Notebook](Monthly_Climatology.ipynb)
+
+**Model**
+In the model I calculated the climatology and anomaly simutaneously based on the forecast day 0-840 due to the fact that there are 2 initializations for each month that each span 35 days. Below is the function I used to calculate the model climatology and anomaly.
+
+[UFS_Climatology](Calculate_Anomalies_UFS.ipynb.ipynb)
+
+**Composite**
+
 
 
 

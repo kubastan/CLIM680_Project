@@ -41,6 +41,7 @@ This project investigates the ability of the **Unified Forecast System (UFS)**, 
 **Climatology:**
 Below shows the Monthly Climatology for precipitation in the MJO active region. We see that in the summer months the highest precipitation amounts shift north.
 
+[Monthly Climatology Notebook](Monthly_Climatology.ipynb)
 
 
 

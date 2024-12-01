@@ -115,17 +115,15 @@ Code used: [MSWEP_Lagged_Regression ](MSWEP_LAG_REGRESSION.ipynb)
 
 ![MSWEP Lagged Regression Rainfall Anomalies ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/MSWEP_LAG.jpg)
 
-Description:
 When computing the lag regressed rainfall anomalies we see a strong eastward propogation of the MJO when using the MSWEP data. We also see that in the wake of these enhanced precipitation anomalies we see that there are also strong negative anomalies behind it which is consistent with observations.
 
 ---
 
-## ** UFS Lag Regressed Rainfall Anomalies**
+## **UFS Lag Regressed Rainfall Anomalies**
 
 Code used: [UFS_Lagged_Regression ](UFSP8_Lag_Regression.ipynb)
 
 
 ![UFS Lagged Regression Rainfall Anomalies ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/UFS_Lag.jpg)
 
-Description:
 When computing the lag regressed rainfall anomalies for the UFS output we also see a strong eastward propogation of the MJO when using the MSWEP data. One thing to notice is that the anomalies are not as strong and the propogation is slightly slower then the MSWEP. We also notice that there isnt as strong of a signal of negative anomalies in the wake of the positive rainfall anomalies.

@@ -11,16 +11,21 @@ The Madden Julian Oscllilation is an area of enhanced convection/precipitation i
 
 **1. Observational Data**
 Dataset: MSWEP (Multi-Source Weighted-Ensemble Precipitation)
+
 Resolution:
 Spatial: 0.1°
 Temporal: Daily (04/01/2011 - 04/18/2018)
+
 Variable: Daily Precipitation (mm/day), derived from MSWEP, already processed.
 
 **2. Model Data**
 Dataset: UFS Prototype 8 (UFS P8)
+
 Resolution:
+
 Spatial: 0.25°
 Temporal: Daily (04/01/2011 - 04/18/2018)
+
 Variable: Precipitation (mm/day), already processed to match the observational data’s temporal scale.
 
 **3. Climate Index**

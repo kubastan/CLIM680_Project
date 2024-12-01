@@ -43,8 +43,6 @@ Description: Projection of 20-96 day filtered ERA5 OLR, including all eastward a
 
 
 
-Code description: Description of each of your analyses along with a link to your notebook for each analysis. This can be in a bullet or table of contents type format.  
-
 
 
 

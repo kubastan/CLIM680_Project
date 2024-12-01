@@ -1,12 +1,10 @@
-Introduction: 
+MJO Propogation in the UFS vs Observations
 
-This project will be looking at the propogation of the Madden Julian Osccilation in Observations and in the UFS model. The Madden Julian Oscllilation is an area of enhanced convection/precipitation that propogates from Eastern Africa to the Central pacific Ocean. The Madden Julian Oscillation occurs on time-scales of 30-90 days and thus can be a very important predictor for intraseasonal variability.
-
-
+The Madden Julian Oscllilation is an area of enhanced convection/precipitation in the tropics that propogates roughly from Eastern Africa to the Central pacific Ocean. This propogation occurs on longer time scales than other atmospheric phenonmeon with a period of anywhere between 30-90 days. Because of this longer time scale the MJO has become a key focus for intraseasonal variability. This phenomenon has a large effect on the atmoshperic response globally and thus can serve a clue to predict weather on the weekly scale. The MJO is considered active when there is an eastward progression of enhanced convection with supressed convection lying in it's wake. This project aims to study how the UFS, an ocean-climate model is able to model this atmospheric cycle.
 
 
-Data: A description of your primary dataset and any additional datasets used (e.g. climate indices, comparison datasets).  Should include links or paths to where the datasets are located and some information about the data original source. Should also include any unique information about your data relevant to this class (e.g. data is on an irregular grid).
 
+Data:
 
 
 

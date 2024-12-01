@@ -4,11 +4,19 @@ The Madden Julian Oscllilation is an area of enhanced convection/precipitation i
 
 
 **Data:**
-I used three datasets for this project.
+**1. Observational Data**
+Dataset: MSWEP (Multi-Source Weighted-Ensemble Precipitation)
+Resolution:
+Spatial: 0.1°
+Temporal: 3-hourly
+Variable: Daily Precipitation (mm/day), derived from MSWEP, already processed.
 
-**Observational:** For the observational data I used the MSWEP daily Precipitation (mm/day). The MSWEP (Multi-Source Weighted-Ensemble Precipitation) rainfall data has a spatial resolution of 0.1 degrees and a temporal resolution of 3 hours.
-
-**Model**: For the model data I used the UFS Prototype 8, a climate-ocean coupled forecast model. The UFS P8 model has a horizontal resolution of 0.25 degree. The data I used was already calculated for daily precipitation.
+**2. Model Data**
+Dataset: UFS Prototype 8 (UFS P8)
+Resolution:
+Spatial: 0.25°
+Temporal: Daily
+Variable: Precipitation (mm/day), already processed to match the observational data’s temporal scale.
 
 
 

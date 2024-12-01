@@ -82,7 +82,7 @@ Here is a link to the notebook used for the composites:
 ---
 
 ## **Statistical Significance Composite**
-
+Below shows a plot of the differences in the composite anomalies of the UFS vs MSWEP. The shaded regions indicate areas of statistical significance(p<0.05). 
 
 
 
@@ -98,26 +98,15 @@ Here is a link to the notebook used for the composites:
 ### **Lag Regression Analysis**
 In order to further diagnose the propogation of the MJO I conducted a lagged regression analaysis. This analysis takes the lag regression of the average 10S-10N Precipitation anomalies for all the longitudes against a filtered precipitation index. 
 
-## ** Filtered Precipitation index**
-This filtered precipitation index uses a space time filter onto zonal wavenumber 1-3, with a frequency of 18-80 days. This will help find the MJO signal. This precipitation index is also calculated on the average within a domain of 160-170E and 5S to 5N. This filtering was done using a kf_filter. Below is the code I used to filter my data.
+## ** Filtered Precipitation index
+This filtered precipitation index uses a space time filter onto zonal wavenumber 1-3, with a frequency of 18-80 days. This will help find the MJO signal. This precipitation index is also calculated on the average within a domain of 160-170E and 5S to 5N. This filtering was done using a kf_filter. Below is the code I used to filter my data. The code has an example using u-winds instead of precipitation.
 
 [Filtered Precipitation Index ](kf_filter.ipynb)
 
 
+Once I have the filtered precipitation index then I used a function to calculate the lag regression slope. I then plotted it in the form of a longitude and lag plot. I then calculated the slope of the maximum rainfall anomaly for each lag to estimate the phase speed. Below is the plot for the lagged precipitation for the MSWEP data. 
+
+![MSWEP Lagged Regression Rainfall Anomalies ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/MSWEP_LAG.jpg)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Results: What does your analysis show that is scientifically interesting? What have you discovered?  
-Summary: Provide short summary of what you learned from your analysis of your data (both scientific and technical), what you would do next to advance this analysis, and any challenges or issues you encountered/overcame.

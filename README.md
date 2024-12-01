@@ -112,4 +112,6 @@ Here is the code I used to calculate the lag-regression.
 ![MSWEP Lagged Regression Rainfall Anomalies ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/MSWEP_LAG.jpg)
 
 
+---
 
+## ** UFS Lag Regression

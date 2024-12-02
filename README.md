@@ -2,7 +2,7 @@
 Jakub Stanczak
 
 ---
-
+ 
 The Madden-Julian Oscillation (MJO) is a region of enhanced convection and precipitation in the tropics that propagates eastward from Eastern Africa to the Central Pacific Ocean. Unlike other atmospheric phenomena, the MJO evolves over longer timescales, with a period ranging between 30–90 days. This characteristic makes the MJO a critical focus for studying intraseasonal variability.
 
 The MJO significantly impacts the global atmospheric response, offering valuable insights for weekly-scale weather predictions. An active MJO is characterized by the eastward progression of enhanced convection, with suppressed convection following in its wake.  

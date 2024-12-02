@@ -103,7 +103,11 @@ In order to further diagnose the propogation of the MJO I conducted a lagged reg
 ## **Filtered Precipitation index**
 This filtered precipitation index uses a space time filter onto zonal wavenumber 1-3, with a frequency of 18-80 days. This will help find the MJO signal. This precipitation index is also calculated on the average within a domain of 160-170E and 5S to 5N. This filtering was done using a kf_filter. Below is the code I used to filter my data. The code has an example using u-winds instead of precipitation.
 
-[Filtered Precipitation Index ](kf_filter.ipynb)
+![Raw 850-wind U - anomalies ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/raw_u.jpg)
+
+![Filtered 850-wind U - anomalies ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/filtered_u.jpg)
+
+**Notebook used:** [Filtered Precipitation Index ](kf_filter.ipynb)
 
 
 Once I have the filtered precipitation index then I used a function to calculate the lag regression slope. I then plotted it in the form of a longitude and lag plot. I then calculated the slope of the maximum rainfall anomaly for each lag to estimate the phase speed. Below is the plot for the lagged precipitation for the MSWEP data. 

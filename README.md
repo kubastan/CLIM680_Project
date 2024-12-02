@@ -3,11 +3,11 @@ Jakub Stanczak
 
 ---
 
-The **Madden-Julian Oscillation (MJO)** is a region of enhanced convection and precipitation in the tropics that propagates eastward from Eastern Africa to the Central Pacific Ocean. Unlike other atmospheric phenomena, the MJO evolves over longer timescales, with a period ranging between **30–90 days**. This characteristic makes the MJO a critical focus for studying intraseasonal variability.
+The Madden-Julian Oscillation (MJO) is a region of enhanced convection and precipitation in the tropics that propagates eastward from Eastern Africa to the Central Pacific Ocean. Unlike other atmospheric phenomena, the MJO evolves over longer timescales, with a period ranging between 30–90 days. This characteristic makes the MJO a critical focus for studying intraseasonal variability.
 
-The MJO significantly impacts the global atmospheric response, offering valuable insights for **weekly-scale weather predictions**. An **active MJO** is characterized by the eastward progression of enhanced convection, with suppressed convection following in its wake.  
+The MJO significantly impacts the global atmospheric response, offering valuable insights for weekly-scale weather predictions. An active MJO is characterized by the eastward progression of enhanced convection, with suppressed convection following in its wake.  
 
-This project investigates the ability of the **Unified Forecast System (UFS)**, a coupled ocean-climate model, to simulate this atmospheric cycle.
+This project investigates the ability of the Unified Forecast System (UFS), a coupled ocean-climate model, to simulate this atmospheric cycle.
  
 ---
 
@@ -137,10 +137,9 @@ When computing the lag regressed rainfall anomalies for the UFS output we also s
 
 ### **Summary, Discussion, Results, and Future Work**
 
-While the UFS model shows the general eastward propagation of the MJO, there are clear discrepancies when compared to the MSWEP observational data. The composite analysis suggests that the UFS has a somewhat muted signal, especially in the active and suppressed phases of the MJO. This suggests that the model may be underestimating the strength of the convection in these regions, leading to less pronounced anomalies in the model output. The lag-regression analysis provides additional support for this conclusion, as the UFS model shows a weaker eastward propagation of the MJO. When looking at the slopes of the max tracking of the observations vs the model we see that the model slope is higher indicated slightly slower eastward propogation. Through estimating the phase speed we see that the phase speed for observations is roughly 5.86 m/s while in the model it is 5.6 m/s 
+While the UFS model shows the general eastward propagation of the MJO, there are clear discrepancies when compared to the MSWEP observational data. The composite analysis suggests that the UFS has a somewhat muted signal, especially in the active and suppressed phases of the MJO. This suggests that the model may be underestimating the strength of the convection in these regions, leading to less pronounced anomalies in the model output. The lag-regression analysis provides additional support for this conclusion, as the UFS model shows a weaker eastward propagation of the MJO. When looking at the slopes of the max tracking of the observations vs the model we see that the model slope is higher indicated slightly slower eastward propogation. Through estimating the phase speed we see that the phase speed for observations is roughly 5.86 m/s while in the model it is 5.6 m/s. While this is not really a very large difference, only 4%, it can play a significant role in the timing of these events and the atmoshperic feedbacks that come along with it. 
 
-
-This could be due to the lower resolution in the UFS model, inhibiting its ability to protray smaller scale atmospheric disturbances such as convection. The problem could also lie in the convective parameterization of the model. The next steps would be to look at other atmospheric variables that drive the MJO as well such as Moist Static Energy and lower-level winds. Once I am able to analyze these variables and if they show a similar result the next step is to diagnose where exactly the problem lies in the model.
+These differences could be due to the lower resolution in the UFS model, inhibiting its ability to protray smaller scale atmospheric disturbances such as convection. The problem could also lie in the convective parameterization of the model. The next steps would be to look at other atmospheric variables that drive the MJO as well such as Moist Static Energy and lower-level winds. Once I am able to analyze these variables and if they show a similar result the next step is to diagnose where exactly the problem lies in the model.
 
 
 

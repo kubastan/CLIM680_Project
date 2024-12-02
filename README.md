@@ -1,4 +1,7 @@
-# **MJO Propagation in the UFS vs Observations**
+### **MJO Propagation in the UFS vs Observations**
+
+Jakub Stanczak
+---
 
 The **Madden-Julian Oscillation (MJO)** is a region of enhanced convection and precipitation in the tropics that propagates eastward from Eastern Africa to the Central Pacific Ocean. Unlike other atmospheric phenomena, the MJO evolves over longer timescales, with a period ranging between **30–90 days**. This characteristic makes the MJO a critical focus for studying intraseasonal variability.
 

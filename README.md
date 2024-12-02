@@ -128,7 +128,9 @@ When computing the lag regressed rainfall anomalies for the UFS output we also s
 --- 
 
 
-### **Results
+### **Results**
 
-Overall, through the composite analysis and the lag-regression the general pattern seems to be that the MJO is modeled weaker then observation. This can first be seen in the composite analysis that while the UFS does show the eastward propogation of the MJO it seems like the signal is muted for both the postitve and negative anomalies. When testing for statistical significance we see that there is some statistical significance between the MJO anomalies in the UFS vs MSWEP in those convectively active and supressed regions. The lag regression also seems to further support this idea as the eastward propagtion of the MJO is more robust in the observations. This can be seen in the slope of the propogation and also the more robust anomalies as opposed to the UFS.
+Overall, through the composite analysis and the lag-regression the MJO is modeled weaker then observation. This can first be seen in the composite analysis that while the UFS does show the eastward propogation of the MJO it seems like the signal is muted for both the postitve and negative anomalies. When testing for statistical significance we see that there is some statistical significance between the MJO anomalies in the UFS vs MSWEP in those convectively active and supressed regions. The lag regression also seems to further support this idea as the eastward propagtion of the MJO is more robust in the observations. This can be seen in the slope of the propogation and also the more robust anomalies as opposed to the UFS.
+
+
 

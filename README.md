@@ -105,8 +105,6 @@ This filtered precipitation index uses a space time filter onto zonal wavenumber
 
 Once I have the filtered precipitation index then I used a function to calculate the lag regression slope. I then plotted it in the form of a longitude and lag plot. I then calculated the slope of the maximum rainfall anomaly for each lag to estimate the phase speed. Below is the plot for the lagged precipitation for the MSWEP data. 
 
-Here is the code I used to calculate the lag-regression.
-[MSWEP Lag Regression ](MSWEP_LAG_REGRESSION.ipynb)
 
 ## **MSWEP Lag Regressed Rainfall Anomalies**
 
@@ -126,3 +124,11 @@ Code used: [UFS_Lagged_Regression ](UFSP8_Lag_Regression.ipynb)
 ![UFS Lagged Regression Rainfall Anomalies ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/UFS_Lag.jpg)
 
 When computing the lag regressed rainfall anomalies for the UFS output we also see a strong eastward propogation of the MJO when using the MSWEP data. One thing to notice is that the anomalies are not as strong and the propogation is slightly slower then the MSWEP. We also notice that there isnt as strong of a signal of negative anomalies in the wake of the positive rainfall anomalies.
+
+--- 
+
+
+### **Results
+
+Overall, through the composite analysis and the lag-regression the general pattern seems to be that the MJO is modeled weaker then observation. This can first be seen in the composite analysis that while the UFS does show the eastward propogation of the MJO it seems like the signal is muted for both the postitve and negative anomalies. When testing for statistical significance we see that there is some statistical significance between the MJO anomalies in the UFS vs MSWEP in those convectively active and supressed regions. The lag regression also seems to further support this idea as the eastward propagtion of the MJO is more robust in the observations. This can be seen in the slope of the propogation and also the more robust anomalies as opposed to the UFS.
+

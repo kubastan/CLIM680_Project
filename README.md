@@ -71,7 +71,7 @@ I then subtracted the MSWEP composite from the UFS composite to create a differe
 
 ![Differenced Composite (UFS-MSWEP) ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/DIFF_COMP.jpg)
 
-Looking above at the figure we see in the convective active phases over the Indian Ocean the UFS underdoes the amount of precipitation compared to the MSWEP. We see it also underdoes the supression behind this convection as well.
+Firstly, looking at the plot we see blue regions and red regions. The blue regions indicate areas where there is more precipitation in observations in those phases than in the model. This indicates that in these convectively active phases the model underdoes the amount of precipitation. Another interesting area can be seen in the red where the UFS actually overdoes the amount of precipitation in the supressed phases of the MJO in the wake of hightened precipitaiton anomalies. This signals that the MJO is overall weaker in the UFS than in observations.
 
 Here is a link to the notebook used for the composites:
 
@@ -83,15 +83,14 @@ Here is a link to the notebook used for the composites:
 
 ## **Statistical Significance Composite**
 Below shows a plot of the differences in the composite anomalies of the UFS vs MSWEP. The shaded regions indicate areas of statistical significance(p<0.05). 
+![Differenced Composite with significance hatching (UFS-MSWEP) ](https://raw.githubusercontent.com/kubastan/CLIM680_Project/figures/UFS_MSWEP_SIG.jpg)
 
 
 
 
 
 
-
-
-
+Here is the code used for the plot above: [Composite and Differenced_Sig_Composite](Statistical_Sig_UFS_MSWEP.ipynb)
 
 ---
 
